@@ -14,6 +14,7 @@ def meep():
 def about():
 	popup = tk.Toplevel()
 	popup.title("FUCK")
+	popup.iconbitmap("icon.ico")
 	tk.Label(popup,text="Fun\nUnusual\nCoding\nKit\n\nLiterally just a really shitty text editor that can't save.\n\n\"Better than DRX\" - Everyone").grid(column=0,row=0)
 	tk.Button(popup,text="no",width=16,command=popup.destroy).grid(column=0,row=1)
 	try:
